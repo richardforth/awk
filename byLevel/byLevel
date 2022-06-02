@@ -1,0 +1,14 @@
+#! /bin/sh
+sort $* |
+awk -F, '
+    $1 == LastLevel {
+        printf "%-25s %s\n", $2 , $3
+    }
+    $1 != LastLevel {
+        LastLevel = $1
+        printf "\n" $1 "'\''s:\n"
+        for(c=0;c<50;c++) printf "-"; printf "\n"
+        printf "%-25s %s\n", "Name:" , "Extension:"
+        for(c=0;c<50;c++) printf "-"; printf "\n"
+        printf "%-25s %s\n", $2 , $3
+}'
