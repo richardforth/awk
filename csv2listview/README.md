@@ -1,7 +1,7 @@
 # Usage
 
 ```bash
-$ awk -f csv2list.awk data.csv
+$ awk -f csv2listview.awk data.csv
 Firstname:
   Bart
 
