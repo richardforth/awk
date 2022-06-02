@@ -2,8 +2,6 @@
 
 ```bash
 $ chmod 700 byLevel
-$ cat staff.csv | byLevel
-byLevel: command not found
 $ cat staff.csv | ./byLevel
 
 L1's:
