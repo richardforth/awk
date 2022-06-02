@@ -1,5 +1,8 @@
 # Usage
 
+This scripts is useful for searching larger data sets, its inspired from an example given at:
+https://unix.stackexchange.com/questions/685089/getting-the-header-names-of-rows-matching-string/685104
+
 ## Example 1
 
 ```bash
